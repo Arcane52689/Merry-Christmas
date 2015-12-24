@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Merry Christmas Kelsey!</title>
+    <title>Merry Christmas!</title>
     <link href='https://fonts.googleapis.com/css?family=Bangers|Shadows+Into+Light+Two' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="./lib/css/gift.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
@@ -12,7 +12,7 @@
 
     <div class="outer-modal inactive">
       <button class="close">X</button>
-      <div class="inner-modal inactive" id="gift-1">
+      <div class="inner-modal inactive" id="kelsey-1">
         <h2> I hope you don't have any plans for 3/11/16 - 3/13/16</h2>
 
         YOU'RE GOING TO SWACNA <br>
@@ -24,31 +24,31 @@
         <br>
         Really... If you had any other plans, cancel them. Now. Like yesterday. Like before yesterday.
       </div>
-      <div class="inner-modal inactive" id="gift-2">
+      <div class="inner-modal inactive" id="kelsey-2">
         <h2>Saturday Breakfast Buffet!</h2>
         <p>
           This wonderful buffet will be the start of your morning. Hopefully that will offset however early you have to wake up. It also better have bacon. Seriously, what kind of buffet doesn't have bacon? That's like a place promising tasty treats and not having pretzels.
         </p>
       </div>
-      <div class="inner-modal inactive" id="gift-3">
+      <div class="inner-modal inactive" id="kelsey-3">
         <h2>Saturday Dinner Buffet!</h2>
         <p>
           Buffet for breakfast, buffet for dinner. No idea what your having for lunch, but this buffet better have chicken and fries.
         </p>
       </div>
-      <div class="inner-modal inactive" id="gift-4">
+      <div class="inner-modal inactive" id="kelsey-4">
         <h2>Saturday Night Dance!</h2>
         <p>
           Dance? Who said anything about a dance? Why is there a dance? Anyways, this is part of your night if you choose to participate.
         </p>
       </div>
-      <div class="inner-modal inactive" id="gift-5">
+      <div class="inner-modal inactive" id="kelsey-5">
         <h2>Saturday Night Entertainment!</h2>
         <p>
           This is very non-specific. I have no idea what you'll be doing, if it's at the same time as the dance, or if it's any fun. But there's 'Entertainment'...
         </p>
       </div>
-      <div class="inner-modal inactive" id="gift-6">
+      <div class="inner-modal inactive" id="kelsey-6">
         <h2>Sunday Spiritual Breakfast!</h2>
         <p>
           Wrap up the weekend listening to an inspiring speaker while enjoying a delicious breakfast of eggs, bacon, and sausage, hash browns, danish, fruit, yogurt and more."
@@ -57,15 +57,82 @@
           At least this one has bacon! And hashbrowns! And an inspiring speaker that may or may not be part of the menu...
         </p>
       </div>
+      <div class="inner-modal inactive" id="george-1">
+        <h2>12 more months of National Geographic!</h2>
+        <p>
+          12 months of learning... <br>
+          Not what most people would want. But you're not most people, right?
+        </p>
+      </div>
+      <div class="inner-modal inactive" id="george-2">
+        <h2>12 more months of Smithsonian!</h2>
+        <p>
+          12 more months of learning... <br>
+          Wow... You really like to read, don't you?
+        </p>
+      </div>
+      <div class="inner-modal inactive" id="george-2">
+        <h2>52 more weeks of Autoweek!</h2>
+        <p>
+          Wow... you know, books and coal are an awful lot alike...
+        </p>
+      </div>
 
+      <div class="elf animation inactive" id="elf">
+
+      </div>
     </div>
 
 
-    <h1 class="title">Merry Christmas Kelsey!</h1>
+    <!-- ANIMATIONS -->
+    <section class="welcome" id="welcome">
+      <h1 class="title">Merry Christmas</h1>
+      <div class="description">
+        Welcome to the N.P.O.W - The North Pole Online Workshop. Here at the North Pole, we have a very strict policy on wrapping gifts. Everything must be wrapped. But as gifts started to become digital, we ran into some problems. How can you wrap an angry birds app? Or a computer download? In ages past, we would just wrap a piece of paper. But that seems rather boring compared to opening a real gift. So instead, Santa and the elves created the North Pole Online Workshop. Here, we can digiatally wrap your gifts and deliver them to you without leaving the North Pole. Isn't technology great?
+
+        <button name="click-me" class="start">Click Here to get Started</button>
+      </div>
+    </section>
+
+
+    <section class="choose-name inactive" id="selection">
+      "All right, we've located you at 20 Millwright Drive. But before we can send your gifts, you have to tell us who you are."
+      <ul class="choose-person">
+        <li class="person" data-name="george">
+          George
+        </li>
+        <li class="person" data-name="cherie">
+          Cherie
+        </li>
+        <li class="person" data-name="thomas">
+          <img src="./lib/images/thomas.jpg" alt="" />
+          Thomas
+        </li>
+        <li class="person" data-name="kelsey">
+          <img src="./lib/images/kelsey.jpg" alt="" />
+          Kelsey
+        </li>
+        <li class="person" data-name="ivory">
+          <img src="./lib/images/ivory.jpg" alt="" />
+          Ivory
+        </li>
+        <li class="person" data-name="pretty">
+          <img src="./lib/images/pretty.jpg" alt="" />
+          Pretty
+        </li>
+
+
+      </ul>
+    </section>
+
+
+    <section class="gifts inactive" id="gifts">
+
+    <h1 class="title" id="greeting"></h1>
     <div class="description">
       Click the gifts below to open them.
     </div>
-      <ul class="gift-boxes group">
+      <ul class="gift-boxes inactive group" id="kelsey">
         <li class="gift" data-box="1">
           <img src="./lib/images/giftbox.png" alt="" />
         </li>
@@ -85,12 +152,25 @@
           <img src="./lib/images/giftbox.png" alt="" />
         </li>
       </ul>
+      <ul class="gift-boxes inactive group" id="george">
+        <li class="gift" data-box="1">
+          <img src="./lib/images/giftbox.png" alt="" />
+        </li>
+        <li class="gift" data-box="2">
+          <img src="./lib/images/giftbox.png" alt="" />
+        </li>
+        <li class="gift" data-box="3">
+          <img src="./lib/images/giftbox.png" alt="" />
+        </li>
+      </ul>
 
+
+    </section>
 
   </body>
   <script type="text/javascript">
     $(document).ready(function() {
-      GiftBox.bindEvents();
+      GiftBox.bindStart();
     })
   </script>
 </html>
