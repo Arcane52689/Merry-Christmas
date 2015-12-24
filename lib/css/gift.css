@@ -150,3 +150,18 @@ body {
 .spun {
   transform: rotate(1080deg);
 }
+
+
+.reindeer {
+  height: 350px;
+  width: 250px;
+  background-image: url("../images/reindeer.png");
+  background-size: 100%;
+  position: absolute;
+  right: -100%;
+  transition: right 2s linear;
+}
+
+.moved {
+  right: 100%;
+}
