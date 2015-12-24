@@ -1,0 +1,23 @@
+
+
+
+.inactive {
+  display: none;
+}
+
+
+
+
+.outer-modal {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(190,190,190,.6);
+}
+
+.inner-modal {
+  background: white;
+  height: 400px;
+  width: 400px;
+  margin: auto;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Merry Christmas Kelsey!</title>
+    <link rel="stylesheet" href="./lib/css/gift.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="./lib/js/gift.js"></script>
+  </head>
+  <body>
+
+    <div class="outer-modal inactive">
+      <button class="close">X</button>
+      <div class="inner-modal inactive" id="gift-1">
+        <h2> I hope you don't have any plans for 3/11/16 - 3/13/16</h2>
+
+        YOU'RE GOING TO SWACNA <br>
+        Small <br>
+        Wonder <br>
+        Area of <br>
+        Narcotics <br>
+        Anonymous <br>
+      </div>
+      <div class="inner-modal inactive" id="gift-2">
+        <h2>Saturday Breakfast Buffet!</h2>
+        <p>
+          This wonderful buffet will be the start of your morning. Hopefully that will offset however early you have to wake up. It also better have bacon. Seriously, what kind of buffet doesn't have bacon? That's like a place promising tasty treats and not having pretzels.
+        </p>
+      </div>
+      <div class="inner-modal inactive" id="gift-3">
+        <h2>Saturday Dinner Buffet!</h2>
+        <p>
+          Buffet for breakfast, buffet for dinner. No idea what your having for lunch, but this buffet better have chicken and fries.
+        </p>
+      </div>
+      <div class="inner-modal inactive" id="gift-4">
+        <h2>Saturday Night Dance!</h2>
+        <p>
+          Dance? Who said anything about a dance? Why is there a dance? Anyways, this is part of your night if you choose to participate.
+        </p>
+      </div>
+      <div class="inner-modal inactive" id="gift-5">
+        <h2>Saturday Night Entertainment!</h2>
+        <p>
+          This is very non-specific. I have no idea what you'll be doing, if it's at the same time as the dance, or if it's any fun. But there's 'Entertainment'...
+        </p>
+      </div>
+      <div class="inner-modal inactive" id="gift-6">
+        <h2>Sunday Spiritual Breakfast!</h2>
+        <p>
+          Wrap up the weekend listening to an inspiring speaker while enjoying a delicious breakfast of eggs, bacon, and sausage, hash browns, danish, fruit, yogurt and more."
+          <br>
+          At least this one has bacon! And hashbrowns! And an inspiring speaker that may or may not be par tof the menu...
+        </p>
+      </div>
+
+    </div>
+
+
+    <h1>Merry Christmas Kelsey!</h1>
+    <p>
+      Part of your christmas gifts are in the boxes below. Click them to find out what's inside(you have to click box 1 first)
+    </p>
+
+      <ul class="gift-boxes">
+        <li data-box="1">
+          Box 1
+        </li>
+        <li data-box="2">
+          Box 2
+        </li>
+        <li data-box="3">
+          Box 3
+        </li>
+        <li data-box="4">
+          Box 4
+        </li>
+        <li data-box="5">
+          Box 5
+        </li>
+        <li data-box="6">
+          Box 6
+        </li>
+      </ul>
+
+
+  </body>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      GiftBox.bindEvents();
+    })
+  </script>
+</html>
