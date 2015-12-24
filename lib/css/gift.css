@@ -75,14 +75,14 @@ body {
 
 .inner-modal {
   font-family: 'Shadows Into Light Two', cursive;
-  font-size: 18px;
+  font-size: 20px;
 
-  background: rgba(255,0,0,1);
+  color: rgba(255,0,0,1);
   height: 400px;
   width: 400px;
   margin: auto;
-  color: rgb(0,100,0);
-  text-shadow: none;
+  background: rgb(0,100,0);
+  text-shadow: 1px 1px white;
   text-align: center;
 }
 
